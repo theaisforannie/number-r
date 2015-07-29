@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Number R",
+  "description": "An extension to change the 4 in numbered lists to the letter R, a nod to the R.E.M. album Green.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
